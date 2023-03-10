@@ -1,7 +1,7 @@
 [package]
 name = "liminal-ark-pnbr-poseidon-permutation"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
 authors = ["Penumbra <crates@penumbra.zone>", "redshiftzero <jen@penumbra.zone>"]
 documentation = "https://docs.rs/liminal-ark-pnbr-poseidon-permutation"
 license = "MIT OR Apache-2.0"
