@@ -1,10 +1,13 @@
 [package]
-name = "poseidon-paramgen"
-version = "0.1.1"
+name = "liminal-ark-pnbr-poseidon-paramgen"
+version = "0.1.0"
 edition = "2018"
 authors = ["Penumbra <crates@penumbra.zone>", "redshiftzero <jen@penumbra.zone>"]
-description = "A crate for generating Poseidon parameters"
+documentation = "https://docs.rs/liminal-ark-pnbr-poseidon-paramgen"
 license = "MIT OR Apache-2.0"
+categories = ["cryptography"]
+repository = "https://github.com/Cardinal-Cryptography/poseidon377"
+description = "A crate for generating Poseidon parameters"
 
 [dependencies]
 anyhow = { version = "1", default-features = false }
@@ -16,7 +19,7 @@ num = { version = "0.4", default-features = false }
 num-bigint = { version = "0.4", default-features = false }
 rand_core = { version = "0.6.3", default-features = false, features = ["getrandom"] }
 
-poseidon-parameters = { path = "../poseidon-parameters", default-features = false }
+poseidon-parameters = { package = "liminal-ark-pnbr-poseidon-parameters", version = "0.1.0", default-features = false }
 
 [dev-dependencies]
 ark-bn254 = "0.3"

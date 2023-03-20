@@ -1,11 +1,13 @@
 [package]
-name = "poseidon-parameters"
+name = "liminal-ark-pnbr-poseidon-parameters"
 version = "0.1.0"
 edition = "2018"
-authors = []
-description = "A crate for Poseidon parameters"
+authors = ["Penumbra <crates@penumbra.zone>", "redshiftzero <jen@penumbra.zone>"]
+documentation = "https://docs.rs/liminal-ark-pnbr-poseidon-parameters"
 license = "MIT OR Apache-2.0"
-keywords = ["no_std"]
+categories = ["cryptography"]
+repository = "https://github.com/Cardinal-Cryptography/poseidon377"
+description = "A crate for Poseidon parameters"
 
 [dependencies]
 anyhow = { version = "1", default-features = false }

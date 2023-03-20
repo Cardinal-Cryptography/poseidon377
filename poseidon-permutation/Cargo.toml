@@ -1,16 +1,19 @@
 [package]
-name = "poseidon-permutation"
-version = "0.1.1"
+name = "liminal-ark-pnbr-poseidon-permutation"
+version = "0.1.0"
 edition = "2018"
 authors = ["Penumbra <crates@penumbra.zone>", "redshiftzero <jen@penumbra.zone>"]
-description = "An instantiation of the Poseidon permutation"
+documentation = "https://docs.rs/liminal-ark-pnbr-poseidon-permutation"
 license = "MIT OR Apache-2.0"
+categories = ["cryptography"]
+repository = "https://github.com/Cardinal-Cryptography/poseidon377"
+description = "An instantiation of the Poseidon permutation"
 
 [dependencies]
 ark-ff = { version = "0.3", default-features = false }
 ark-std = { version = "^0.3.0", default-features = false }
 
-poseidon-parameters = { path = "../poseidon-parameters", default-features = false }
+poseidon-parameters = { package = "liminal-ark-pnbr-poseidon-parameters", version = "0.1.0", default-features = false }
 
 [features]
 default = ["std"]
